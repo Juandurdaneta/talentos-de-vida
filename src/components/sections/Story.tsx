@@ -27,7 +27,7 @@ const currentState = [
 ]
 
 export function Story() {
-  const { ref, isInView } = useScrollAnimation()
+  const { ref, isInView } = useScrollAnimation({ margin: "0px", amount: 0.1 })
 
   const containerVariants = {
     hidden: { opacity: 0 },
