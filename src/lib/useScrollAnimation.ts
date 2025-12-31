@@ -10,7 +10,7 @@ interface UseScrollAnimationOptions {
 }
 
 export function useScrollAnimation(options: UseScrollAnimationOptions = {}) {
-  const { once = true, margin = "-100px", amount = 0.3 } = options
+  const { once = true, margin = "0px", amount = 0.1 } = options
   const ref = useRef<HTMLDivElement>(null)
   const isInView = useInView(ref, { once, margin: margin as any, amount })
 
@@ -20,7 +20,7 @@ export function useScrollAnimation(options: UseScrollAnimationOptions = {}) {
 export function useScrollAnimationRef<T extends HTMLElement>(
   options: UseScrollAnimationOptions = {}
 ): { ref: RefObject<T>; isInView: boolean } {
-  const { once = true, margin = "-100px", amount = 0.3 } = options
+  const { once = true, margin = "0px", amount = 0.1 } = options
   const ref = useRef<T>(null)
   const isInView = useInView(ref as RefObject<Element>, { once, margin: margin as any, amount })
 
