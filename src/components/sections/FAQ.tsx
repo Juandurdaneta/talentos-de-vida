@@ -60,7 +60,7 @@ export function FAQ() {
     <section ref={ref} className="section-padding bg-off-white relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-10 right-10 w-40 h-40 bg-teal-light/20 organic-shape-3 blur-2xl" />
-      <div className="absolute bottom-10 left-10 w-56 h-56 bg-lavender/30 organic-shape-1 blur-2xl" />
+      <div className="absolute bottom-10 left-10 w-56 h-56 bg-golden/30 organic-shape-1 blur-2xl" />
 
       <div className="max-w-3xl mx-auto relative z-10">
         <motion.div
@@ -97,7 +97,7 @@ export function FAQ() {
           {/* Encouraging note */}
           <motion.div
             variants={itemVariants}
-            className="mt-12 text-center bg-gradient-to-r from-lavender/30 via-blush/30 to-lavender/30 rounded-3xl p-8"
+            className="mt-12 text-center bg-gradient-to-r from-golden/30 via-blush/30 to-golden/30 rounded-3xl p-8"
           >
             <p className="font-montserrat text-gray-700">
               ¿Tienes otra pregunta? No te preocupes, todas hemos estado ahí.

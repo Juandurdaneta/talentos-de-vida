@@ -10,7 +10,8 @@ const config: Config = {
     extend: {
       colors: {
         // Primary Colors
-        'lavender': '#C9C9DF',
+        'warm-yellow': '#FDF6E3',
+        'golden': '#F9BA58',
         'off-white': '#F9F8FB',
         // Secondary Colors
         'teal': {
@@ -65,8 +66,8 @@ const config: Config = {
         },
       },
       boxShadow: {
-        'soft': '0 4px 20px rgba(201, 201, 223, 0.3)',
-        'soft-lg': '0 8px 40px rgba(201, 201, 223, 0.4)',
+        'soft': '0 4px 20px rgba(249, 186, 88, 0.25)',
+        'soft-lg': '0 8px 40px rgba(249, 186, 88, 0.35)',
         'teal': '0 4px 20px rgba(56, 145, 162, 0.3)',
       },
     },

@@ -39,7 +39,7 @@ const methodSteps = [
     title: "CREA",
     description: "Desde tu autenticidad — Comparte tu verdad sin máscaras",
     icon: Palette,
-    color: "bg-lavender",
+    color: "bg-golden",
   },
   {
     letter: "E",
@@ -93,7 +93,7 @@ export function Method() {
     <section ref={ref} className="section-padding bg-off-white relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-coral via-teal to-peach" />
-      <div className="absolute -top-20 -left-20 w-64 h-64 bg-lavender/20 organic-shape-1 blur-2xl" />
+      <div className="absolute -top-20 -left-20 w-64 h-64 bg-golden/20 organic-shape-1 blur-2xl" />
       <div className="absolute -bottom-20 -right-20 w-80 h-80 bg-teal-light/20 organic-shape-2 blur-2xl" />
 
       <div className="max-w-6xl mx-auto relative z-10">
@@ -151,7 +151,7 @@ export function Method() {
           {/* Flexibility points */}
           <motion.div
             variants={itemVariants}
-            className="mt-16 bg-gradient-to-r from-teal-light/20 via-lavender/20 to-teal-light/20 rounded-3xl p-8 md:p-12"
+            className="mt-16 bg-gradient-to-r from-teal-light/20 via-golden/20 to-teal-light/20 rounded-3xl p-8 md:p-12"
           >
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
               {flexibilityPoints.map((point, index) => (

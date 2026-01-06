@@ -44,7 +44,7 @@ export function FinalCTA() {
   }
 
   return (
-    <section ref={ref} className="section-padding gradient-lavender relative overflow-hidden">
+    <section ref={ref} className="section-padding gradient-warm relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-coral/50 to-transparent" />
       <div className="absolute -top-20 -right-20 w-80 h-80 bg-coral/10 organic-shape-1 blur-3xl" />

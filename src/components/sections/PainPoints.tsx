@@ -46,7 +46,7 @@ export function PainPoints() {
     <section ref={ref} className="section-padding gradient-blush relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-10 right-10 w-40 h-40 bg-coral/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-10 left-10 w-60 h-60 bg-lavender/30 rounded-full blur-3xl" />
+      <div className="absolute bottom-10 left-10 w-60 h-60 bg-golden/30 rounded-full blur-3xl" />
 
       <div className="max-w-5xl mx-auto relative z-10">
         <motion.div

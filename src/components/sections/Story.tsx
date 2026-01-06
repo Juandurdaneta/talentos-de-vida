@@ -56,7 +56,7 @@ export function Story() {
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-teal/30 to-transparent" />
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-teal-light/20 rounded-full blur-3xl" />
-      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-lavender/30 rounded-full blur-3xl" />
+      <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-golden/30 rounded-full blur-3xl" />
 
       <div className="max-w-6xl mx-auto relative z-10">
         <motion.div
@@ -113,40 +113,43 @@ export function Story() {
 
             {/* Right column - Photo and transformation */}
             <motion.div variants={itemVariants} className="space-y-8">
-              {/* Photo placeholder */}
+              {/* Daysi Photo */}
               <div className="relative aspect-[4/5] rounded-3xl overflow-hidden shadow-soft-lg">
-                <div className="absolute inset-0 bg-gradient-to-br from-lavender via-blush to-teal-light/50 flex items-center justify-center">
-                  <div className="text-center p-8">
-                    <div className="w-32 h-32 mx-auto mb-4 rounded-full bg-white/30 flex items-center justify-center">
-                      <Image
-                        src="/images/icon.svg"
-                        alt="Daysi Aldaz"
-                        width={64}
-                        height={64}
-                        className="opacity-60"
-                      />
-                    </div>
-                    <p className="font-montserrat text-white/80 text-sm">
-                      Foto de Daysi
-                    </p>
-                  </div>
-                </div>
+                <Image
+                  src="/images/daysi.jpg"
+                  alt="Daysi Aldaz"
+                  fill
+                  className="object-cover"
+                />
                 {/* Decorative corner */}
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-coral/30 organic-shape-1" />
               </div>
 
-              {/* 90-day transformation */}
-              <div className="bg-gradient-to-br from-peach/20 to-coral/10 rounded-3xl p-8">
-                <h3 className="font-montserrat font-bold text-lg text-teal mb-6">
-                  En 90 días, desde mi casa:
-                </h3>
-                <div className="space-y-3">
-                  {transformationResults.map((result, index) => (
-                    <div key={index} className="flex items-start gap-3">
-                      <div className="w-2 h-2 rounded-full bg-teal mt-2 flex-shrink-0" />
-                      <p className="font-montserrat text-gray-700">{result}</p>
-                    </div>
-                  ))}
+              {/* 90-day transformation with photo */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                {/* Family photo */}
+                <div className="relative aspect-square rounded-2xl overflow-hidden shadow-soft">
+                  <Image
+                    src="/images/daysi-family.jpg"
+                    alt="Daysi con su familia"
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+
+                {/* 90-day results */}
+                <div className="bg-gradient-to-br from-peach/20 to-coral/10 rounded-2xl p-6">
+                  <h3 className="font-montserrat font-bold text-base text-teal mb-4">
+                    En 90 días, desde mi casa:
+                  </h3>
+                  <div className="space-y-2">
+                    {transformationResults.map((result, index) => (
+                      <div key={index} className="flex items-start gap-2">
+                        <div className="w-2 h-2 rounded-full bg-teal mt-2 flex-shrink-0" />
+                        <p className="font-montserrat text-gray-700 text-sm">{result}</p>
+                      </div>
+                    ))}
+                  </div>
                 </div>
               </div>
             </motion.div>
@@ -179,7 +182,7 @@ export function Story() {
               Y esa misma decisión que me transformó de{" "}
               <span className="text-coral font-semibold">mamá en piloto automático</span>{" "}
               a{" "}
-              <span className="text-teal font-semibold">mujer con misión</span>{" "}
+              <span className="text-teal font-semibold">mujer con misión,</span>{" "}
               es la que puedes tomar tú hoy.
             </p>
             <Button variant="primary" size="xl">

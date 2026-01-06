@@ -42,8 +42,8 @@
     @apply py-16 md:py-24 lg:py-32 px-4 md:px-8;
   }
   
-  .gradient-lavender {
-    background: linear-gradient(135deg, #F9F8FB 0%, #C9C9DF 100%);
+  .gradient-warm {
+    background: linear-gradient(135deg, #FFFBF5 0%, #FEE8C8 50%, #FFFBF5 100%);
   }
   
   .gradient-blush {
@@ -99,7 +99,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #C9C9DF;
+  background: #F9BA58;
   border-radius: 4px;
 }
 

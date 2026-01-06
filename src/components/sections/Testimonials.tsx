@@ -49,7 +49,7 @@ export function Testimonials() {
     <section ref={ref} className="section-padding gradient-blush relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-32 h-32 bg-coral/10 organic-shape-1 blur-xl" />
-      <div className="absolute bottom-20 right-10 w-48 h-48 bg-lavender/30 organic-shape-2 blur-xl" />
+      <div className="absolute bottom-20 right-10 w-48 h-48 bg-golden/30 organic-shape-2 blur-xl" />
 
       <div className="max-w-5xl mx-auto relative z-10">
         <motion.div
@@ -86,7 +86,7 @@ export function Testimonials() {
                   {/* Photo */}
                   <div className="flex items-center gap-4 mb-6">
                     <div className="relative w-20 h-20 rounded-full overflow-hidden border-4 border-coral/20">
-                      <div className="absolute inset-0 bg-gradient-to-br from-lavender to-blush flex items-center justify-center">
+                      <div className="absolute inset-0 bg-gradient-to-br from-warm-yellow to-blush flex items-center justify-center">
                         <span className="text-3xl">👩</span>
                       </div>
                     </div>
