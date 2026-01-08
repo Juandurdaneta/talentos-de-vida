@@ -74,39 +74,24 @@ export function Story() {
           <div className="grid md:grid-cols-2 gap-12 items-start">
             {/* Left column - Story */}
             <motion.div variants={itemVariants} className="space-y-8">
-              {/* Opening hook */}
-              <div className="bg-white rounded-3xl p-8 shadow-soft">
+              {/* Unified story section */}
+              <div className="bg-white rounded-3xl p-8 shadow-soft space-y-6">
                 <p className="font-yuji text-2xl md:text-3xl text-gray-800 leading-relaxed">
                   El 17 de noviembre mi corazón se detuvo...
                 </p>
-                <p className="font-montserrat text-lg text-gray-600 mt-4">
+                <p className="font-montserrat text-lg text-gray-700 leading-relaxed">
                   Literalmente. En una mesa de operaciones.
                 </p>
-              </div>
-
-              {/* Message received */}
-              <div className="bg-teal/10 rounded-3xl p-8 border-l-4 border-teal">
                 <p className="font-montserrat text-lg text-gray-700 leading-relaxed">
                   Cuando desperté, Dios me había dado un mensaje clarísimo:
                 </p>
-                <p className="font-yuji text-xl md:text-2xl text-teal mt-4">
+                <p className="font-montserrat text-lg text-gray-700 leading-relaxed">
                   &quot;Daysi, tienes un propósito. Deja de posponerlo.&quot;
                 </p>
-              </div>
-
-              {/* Realizations */}
-              <div className="space-y-4">
                 {realizations.map((realization, index) => (
-                  <motion.div
-                    key={index}
-                    variants={itemVariants}
-                    className="flex items-center gap-4 bg-white/80 rounded-2xl p-4 shadow-sm"
-                  >
-                    <div className="w-8 h-8 rounded-full bg-coral/20 flex items-center justify-center flex-shrink-0">
-                      <Sparkles className="w-4 h-4 text-coral" />
-                    </div>
-                    <p className="font-montserrat text-gray-700">{realization}</p>
-                  </motion.div>
+                  <p key={index} className="font-montserrat text-lg text-gray-700 leading-relaxed">
+                    {realization}
+                  </p>
                 ))}
               </div>
 
