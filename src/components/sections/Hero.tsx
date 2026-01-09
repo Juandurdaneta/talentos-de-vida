@@ -6,7 +6,7 @@ import Image from "next/image"
 
 export function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-warm">
+    <section id="hero" className="relative min-h-screen flex items-center justify-center overflow-hidden gradient-warm">
       {/* Decorative organic shapes */}
       <div className="absolute inset-0 pointer-events-none overflow-hidden">
         <motion.div

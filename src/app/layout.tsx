@@ -1,5 +1,6 @@
 import type { Metadata } from "next"
 import "./globals.css"
+import { Navbar } from "@/components/navigation/Navbar"
 
 export const metadata: Metadata = {
   title: "Talentos de Vida | Descubre Tu Propósito y Construye Tu Negocio Desde Casa",
@@ -43,7 +44,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body>
+        <Navbar />
+        {children}
+      </body>
     </html>
   )
 }
