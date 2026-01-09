@@ -45,17 +45,14 @@ export function Navbar() {
       >
         <nav className="max-w-6xl mx-auto px-4 md:px-8 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative w-10 h-10 md:w-12 md:h-12 transition-transform group-hover:scale-105">
+          <Link href="/" className="group">
+            <div className="relative w-28 h-14 md:w-40 md:h-20 transition-transform group-hover:scale-105">
               <Image
                 src="/images/logo-full-color.png"
                 alt="Talentos de Vida"
                 fill
                 className="object-contain"
               />
-            </div>
-            <div className="hidden sm:block">
-              <span className="font-yuji text-teal text-lg">Talentos de vida</span>
             </div>
           </Link>
 
