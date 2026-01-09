@@ -66,9 +66,9 @@ export function Hero() {
           className="mb-8"
         >
           <div className="inline-flex items-center justify-center">
-            <div className="w-20 h-20 md:w-24 md:h-24 relative">
+            <div className="w-32 h-32 md:w-40 md:h-40 relative">
               <Image
-                src="/images/icon.svg"
+                src="/images/logo-full-color.png"
                 alt="Talentos de Vida"
                 fill
                 className="object-contain"

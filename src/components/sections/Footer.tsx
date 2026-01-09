@@ -21,9 +21,9 @@ export function Footer() {
           >
             {/* Logo */}
             <div className="mb-6">
-              <div className="w-16 h-16 relative mb-3 mx-auto">
+              <div className="w-24 h-24 md:w-32 md:h-32 relative mb-3 mx-auto">
                 <Image
-                  src="/images/icon.svg"
+                  src="/images/logo-full-color.png"
                   alt="Talentos de Vida"
                   fill
                   className="object-contain brightness-0 invert"

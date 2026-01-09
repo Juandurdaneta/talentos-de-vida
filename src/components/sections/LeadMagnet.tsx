@@ -71,7 +71,7 @@ export function LeadMagnet() {
               </h3>
 
               <p className="font-montserrat text-white/80 mb-8 leading-relaxed">
-                La herramienta que ha ayudado a cientos de mamás a descubrir que tienen algo único y valioso que compartir con el mundo.
+                La herramienta que ha ayudado a cientos de mamás a descubrir que tienen algo único y valioso que compartir.
               </p>
 
               {/* Benefits */}
@@ -101,9 +101,7 @@ export function LeadMagnet() {
               </div>
 
               {/* Closing lines */}
-              <p className="font-montserrat text-white/80 mb-2">
-                Toma el primer paso para dejar de posponer y empezar a vivir.
-              </p>
+           
               <p className="font-yuji text-xl text-peach">
                 Este es tu permiso para brillar.
               </p>
@@ -148,7 +146,7 @@ export function LeadMagnet() {
                       className="w-full"
                     />
                   </div>
-                  <Button variant="primary" size="xl" className="w-full bg-coral hover:bg-coral/90">
+                  <Button variant="primary" size="xl" className="w-full bg-golden hover:bg-golden/90 text-gray-800">
                     MUÉSTRAME MI TESORO ESCONDIDO
                   </Button>
                   <p className="font-montserrat text-xs text-white/60 text-center">

@@ -99,11 +99,11 @@ export function Transformation() {
 
           {/* Beyond income section */}
           <motion.div variants={itemVariants} className="grid md:grid-cols-2 gap-8 mb-16">
-            <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-soft">
+            <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-soft flex flex-col h-full">
               <h3 className="font-yuji text-2xl text-gray-800 mb-6">
                 Más allá de cualquier ingreso...
               </h3>
-              <div className="space-y-4">
+              <div className="flex-1 flex flex-col justify-between">
                 {beyondIncome.map((item, index) => (
                   <div key={index} className="flex items-center gap-4">
                     <div className="w-3 h-3 rounded-full bg-coral flex-shrink-0" />
@@ -152,12 +152,11 @@ export function Transformation() {
                 </div>
               </div>
             </div>
-            <p className="font-montserrat text-lg md:text-xl text-gray-700 max-w-3xl mx-auto">
-              <span className="font-bold text-teal">Más de 100 mamás</span> ya encontraron su propósito.
-              Empezaron exactamente donde tú estás.
+            <p className="font-montserrat text-lg md:text-xl text-gray-700 max-w-4xl mx-auto md:whitespace-nowrap">
+              <span className="font-bold text-teal">Más de 100 mamás</span> ya encontraron su propósito. Empezaron exactamente donde tú estás.
             </p>
             <p className="font-yuji text-xl md:text-2xl text-gray-800 mt-4">
-              La única diferencia: <span className="text-coral">Ellas dejaron de esperar.</span>
+              La única diferencia: <span className="text-golden">Ellas dejaron de esperar.</span>
             </p>
           </motion.div>
         </motion.div>

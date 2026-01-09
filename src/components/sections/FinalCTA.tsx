@@ -81,20 +81,18 @@ export function FinalCTA() {
                 variants={itemVariants}
                 className={`rounded-3xl p-8 ${
                   path.color === "gray"
-                    ? "bg-gray-100 border-2 border-gray-200"
+                    ? "bg-gradient-to-br from-coral/90 to-coral border-2 border-coral"
                     : "bg-gradient-to-br from-teal to-teal-light border-2 border-teal"
                 }`}
               >
                 <div className="flex items-center gap-3 mb-6">
                   {path.color === "gray" ? (
-                    <Repeat className="w-8 h-8 text-gray-400" />
+                    <Repeat className="w-8 h-8 text-white" />
                   ) : (
                     <Sparkles className="w-8 h-8 text-white" />
                   )}
                   <h3
-                    className={`font-montserrat font-bold text-xl uppercase tracking-wider ${
-                      path.color === "gray" ? "text-gray-500" : "text-white"
-                    }`}
+                    className={`font-montserrat font-bold text-xl uppercase tracking-wider text-white`}
                   >
                     {path.title}
                   </h3>
@@ -103,9 +101,7 @@ export function FinalCTA() {
                   {path.items.map((item, itemIndex) => (
                     <div
                       key={itemIndex}
-                      className={`flex items-center gap-3 ${
-                        path.color === "gray" ? "text-gray-600" : "text-white"
-                      }`}
+                      className="flex items-center gap-3 text-white"
                     >
                       <ArrowRight className="w-5 h-5 flex-shrink-0" />
                       <p className="font-montserrat text-lg">{item}</p>
