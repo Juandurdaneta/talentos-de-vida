@@ -95,14 +95,19 @@ export function Story() {
                 ))}
               </div>
 
-              {/* Photo below realizations */}
-              <div className="relative aspect-[3/4] rounded-3xl overflow-hidden shadow-soft-lg">
-                <Image
-                  src="/images/daysi-working.jpg"
-                  alt="Daysi trabajando en su propósito"
-                  fill
-                  className="object-cover"
-                />
+               {/* 90-day results */}
+               <div className="bg-gradient-to-br from-peach/20 to-coral/10 rounded-2xl p-6">
+                <h3 className="font-montserrat font-bold text-base text-teal mb-4">
+                  En 90 días, desde mi casa:
+                </h3>
+                <div className="space-y-2">
+                  {transformationResults.map((result, index) => (
+                    <div key={index} className="flex items-start gap-2">
+                      <div className="w-2 h-2 rounded-full bg-teal mt-2 flex-shrink-0" />
+                      <p className="font-montserrat text-gray-700 text-sm">{result}</p>
+                    </div>
+                  ))}
+                </div>
               </div>
             </motion.div>
 
@@ -120,20 +125,7 @@ export function Story() {
                 <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-coral/30 organic-shape-1" />
               </div>
 
-              {/* 90-day results */}
-              <div className="bg-gradient-to-br from-peach/20 to-coral/10 rounded-2xl p-6">
-                <h3 className="font-montserrat font-bold text-base text-teal mb-4">
-                  En 90 días, desde mi casa:
-                </h3>
-                <div className="space-y-2">
-                  {transformationResults.map((result, index) => (
-                    <div key={index} className="flex items-start gap-2">
-                      <div className="w-2 h-2 rounded-full bg-teal mt-2 flex-shrink-0" />
-                      <p className="font-montserrat text-gray-700 text-sm">{result}</p>
-                    </div>
-                  ))}
-                </div>
-              </div>
+           
             </motion.div>
           </div>
 
