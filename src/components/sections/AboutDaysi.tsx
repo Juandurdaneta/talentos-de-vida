@@ -51,21 +51,25 @@ export function AboutDaysi() {
         </h4>
         <div className="flex gap-4">
           <a
-            href="#"
+            href="https://www.instagram.com/daysialdaz.tdv/"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-12 h-12 rounded-full bg-teal/10 flex items-center justify-center text-teal hover:bg-teal hover:text-white transition-colors"
             aria-label="Instagram"
           >
             <Instagram className="w-5 h-5" />
           </a>
           <a
-            href="#"
+            href="https://www.facebook.com/profile.php?id=61552498655587"
+            target="_blank"
+            rel="noopener noreferrer"
             className="w-12 h-12 rounded-full bg-teal/10 flex items-center justify-center text-teal hover:bg-teal hover:text-white transition-colors"
             aria-label="Facebook"
           >
             <Facebook className="w-5 h-5" />
           </a>
           <a
-            href="mailto:contacto@talentosdevida.com"
+            href="mailto:daysialdaz44@gmail.com"
             className="w-12 h-12 rounded-full bg-teal/10 flex items-center justify-center text-teal hover:bg-teal hover:text-white transition-colors"
             aria-label="Email"
           >
