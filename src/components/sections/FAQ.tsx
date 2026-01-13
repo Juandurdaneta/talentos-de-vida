@@ -70,7 +70,7 @@ export function FAQ() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="font-yuji text-3xl md:text-4xl lg:text-5xl text-gray-800">
+            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800">
               Entiendo Tus Dudas...
             </h2>
           </motion.div>
@@ -102,7 +102,7 @@ export function FAQ() {
             <p className="font-montserrat text-gray-700">
               ¿Tienes otra pregunta? No te preocupes, todas hemos estado ahí.
             </p>
-            <p className="font-yuji text-xl text-teal mt-4">
+            <p className="font-fredoka text-xl text-teal mt-4">
               Lo importante es dar el primer paso.
             </p>
           </motion.div>

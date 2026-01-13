@@ -76,12 +76,7 @@ export function Hero() {
               />
             </div>
           </div>
-          <h1 className="font-yuji text-teal text-2xl md:text-3xl mt-2">
-            Talentos de vida
-          </h1>
-          <p className="font-montserrat text-coral text-sm tracking-wider">
-            By Daysi Aldaz
-          </p>
+          
         </motion.div>
 
         {/* Main headline */}
@@ -89,7 +84,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-yuji text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 leading-tight mb-6 text-balance"
+          className="font-fredoka text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 leading-tight mb-6 text-balance"
         >
           Para la mamá que siente que desapareció detrás de los roles de otros
         </motion.h2>

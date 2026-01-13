@@ -66,7 +66,7 @@ export function Story() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="font-yuji text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
+            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
               Mi Despertar: Del Hospital a Mi Propósito
             </h2>
           </motion.div>
@@ -75,36 +75,27 @@ export function Story() {
             {/* Left column - Story */}
             <motion.div variants={itemVariants} className="space-y-8">
               {/* Unified story section */}
-              <div className="bg-white rounded-3xl p-8 shadow-soft space-y-6">
-                <p className="font-yuji text-2xl md:text-3xl text-gray-800 leading-relaxed">
-                  El 17 de noviembre mi corazón se detuvo...
+              <div className="bg-white rounded-3xl p-6 shadow-soft">
+                <p className="font-montserrat text-gray-700 leading-relaxed">
+                  <span className="font-bold text-xl text-gray-800">El 17 de noviembre mi corazón se detuvo...</span>{" "}
+                  Literalmente. En una mesa de operaciones. Cuando desperté, Dios me había dado un mensaje clarísimo:{" "}
+                  <span className="italic">&quot;Daysi, tienes un propósito. Deja de posponerlo.&quot;</span>
                 </p>
-                <p className="font-montserrat text-lg text-gray-700 leading-relaxed">
-                  Literalmente. En una mesa de operaciones.
+                <p className="font-montserrat text-gray-700 leading-relaxed mt-4">
+                  Era sobre no desperdiciar los dones que tenía. Era sobre crear algo mío. Era sobre ayudar a otras mujeres a brillar.
                 </p>
-                <p className="font-montserrat text-lg text-gray-700 leading-relaxed">
-                  Cuando desperté, Dios me había dado un mensaje clarísimo:
-                </p>
-                <p className="font-montserrat text-lg text-gray-700 leading-relaxed">
-                  &quot;Daysi, tienes un propósito. Deja de posponerlo.&quot;
-                </p>
-                {realizations.map((realization, index) => (
-                  <p key={index} className="font-montserrat text-lg text-gray-700 leading-relaxed">
-                    {realization}
-                  </p>
-                ))}
               </div>
 
                {/* 90-day results */}
-               <div className="bg-gradient-to-br from-peach/20 to-coral/10 rounded-2xl p-6">
-                <h3 className="font-montserrat font-bold text-base text-teal mb-4">
+               <div className="bg-gradient-to-br from-peach/20 to-coral/10 rounded-3xl p-8">
+                <h3 className="font-fredoka text-xl md:text-2xl text-teal mb-6">
                   En 90 días, desde mi casa:
                 </h3>
-                <div className="space-y-2">
+                <div className="space-y-4">
                   {transformationResults.map((result, index) => (
-                    <div key={index} className="flex items-start gap-2">
-                      <div className="w-2 h-2 rounded-full bg-teal mt-2 flex-shrink-0" />
-                      <p className="font-montserrat text-gray-700 text-sm">{result}</p>
+                    <div key={index} className="flex items-start gap-3">
+                      <div className="w-3 h-3 rounded-full bg-teal mt-1.5 flex-shrink-0" />
+                      <p className="font-montserrat text-gray-700 text-base md:text-lg">{result}</p>
                     </div>
                   ))}
                 </div>
@@ -131,7 +122,7 @@ export function Story() {
 
           {/* Current state - 3 years later */}
           <motion.div variants={itemVariants} className="mt-16">
-            <h3 className="font-yuji text-2xl md:text-3xl text-center text-gray-800 mb-8">
+            <h3 className="font-fredoka text-2xl md:text-3xl text-center text-gray-800 mb-8">
               Hoy, 3 años después:
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">

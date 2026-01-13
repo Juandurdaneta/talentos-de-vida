@@ -29,7 +29,7 @@ export function Footer() {
                   className="object-contain brightness-0 invert"
                 />
               </div>
-              <h3 className="font-yuji text-2xl text-white">Talentos de vida</h3>
+              <h3 className="font-fredoka text-2xl text-white">Talentos de vida</h3>
               <p className="font-montserrat text-coral text-sm">By Daysi Aldaz</p>
             </div>
 

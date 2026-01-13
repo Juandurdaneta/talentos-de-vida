@@ -59,7 +59,7 @@ export function Testimonials() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="font-yuji text-3xl md:text-4xl lg:text-5xl text-gray-800">
+            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800">
               Mujeres Que Encontraron Su Propósito
             </h2>
           </motion.div>
@@ -91,7 +91,7 @@ export function Testimonials() {
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-yuji text-xl text-gray-800">{testimonial.name}</h3>
+                      <h3 className="font-fredoka text-xl text-gray-800">{testimonial.name}</h3>
                       <p className="font-montserrat text-coral text-sm">{testimonial.age}</p>
                     </div>
                   </div>

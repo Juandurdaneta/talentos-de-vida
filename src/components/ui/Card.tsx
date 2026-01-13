@@ -30,7 +30,7 @@ const CardTitle = forwardRef<HTMLHeadingElement, HTMLAttributes<HTMLHeadingEleme
   ({ className, ...props }, ref) => (
     <h3
       ref={ref}
-      className={cn("font-yuji text-2xl leading-none tracking-tight text-teal", className)}
+      className={cn("font-fredoka text-2xl leading-none tracking-tight text-teal", className)}
       {...props}
     />
   )

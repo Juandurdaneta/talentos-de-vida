@@ -45,7 +45,7 @@ export function ContactForm() {
       transition={{ duration: 0.6 }}
     >
       <div className="bg-white rounded-3xl shadow-soft p-8 md:p-10">
-        <h2 className="font-yuji text-2xl md:text-3xl text-gray-800 mb-2">
+        <h2 className="font-fredoka text-2xl md:text-3xl text-gray-800 mb-2">
           Envíame un mensaje
         </h2>
         <p className="font-montserrat text-gray-600 mb-8">
@@ -64,7 +64,7 @@ export function ContactForm() {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-teal/10 flex items-center justify-center">
                 <CheckCircle className="w-8 h-8 text-teal" />
               </div>
-              <h3 className="font-yuji text-xl text-gray-800 mb-2">
+              <h3 className="font-fredoka text-xl text-gray-800 mb-2">
                 ¡Mensaje enviado!
               </h3>
               <p className="font-montserrat text-gray-600 mb-6">

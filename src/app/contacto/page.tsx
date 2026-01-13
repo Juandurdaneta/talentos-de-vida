@@ -19,7 +19,7 @@ export default function ContactoPage() {
         <div className="absolute bottom-0 -left-20 w-48 h-48 bg-teal-light/30 organic-shape-2" />
 
         <div className="max-w-4xl mx-auto px-4 md:px-8 text-center relative z-10">
-          <h1 className="font-yuji text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
+          <h1 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
             Hablemos
           </h1>
           <p className="font-montserrat text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">

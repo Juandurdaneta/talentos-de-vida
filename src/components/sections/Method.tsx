@@ -104,7 +104,7 @@ export function Method() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
-            <h2 className="font-yuji text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
+            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
               El Método R.E.N.A.C.E.R
             </h2>
             <p className="font-montserrat text-lg md:text-xl text-teal font-semibold">
@@ -128,7 +128,7 @@ export function Method() {
                   <div
                     className={`w-12 h-12 rounded-full ${step.color} flex items-center justify-center flex-shrink-0 shadow-soft z-10`}
                   >
-                    <span className="font-yuji text-2xl text-white">{step.letter}</span>
+                    <span className="font-fredoka text-2xl text-white">{step.letter}</span>
                   </div>
 
                   {/* Content card */}

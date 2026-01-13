@@ -11,11 +11,6 @@ const painPoints = [
   "Ya es muy tarde para empezar algo nuevo",
 ]
 
-const consequences = [
-  "Tus sueños personales siguen 'en pausa' indefinidamente",
-  "Esa idea que tienes hace años sigue guardada",
-  "Otro año pasa sin cambios reales",
-]
 
 export function PainPoints() {
   const { ref, isInView } = useScrollAnimation()
@@ -56,7 +51,7 @@ export function PainPoints() {
         >
           {/* Section intro */}
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="font-yuji text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-6">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-6">
               ¿Te Suena Familiar?
             </h2>
             <p className="font-montserrat text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
@@ -94,21 +89,12 @@ export function PainPoints() {
 
           {/* Consequences */}
           <motion.div variants={itemVariants} className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 mb-12">
-            <h3 className="font-montserrat font-bold text-xl text-teal mb-6 text-center">
+            <h3 className="font-fredoka text-2xl md:text-3xl text-teal text-center mb-4">
               Mientras tanto:
             </h3>
-            <div className="space-y-4">
-              {consequences.map((consequence, index) => (
-                <motion.div
-                  key={index}
-                  variants={itemVariants}
-                  className="flex items-center gap-4"
-                >
-                  <div className="w-3 h-3 rounded-full bg-coral flex-shrink-0" />
-                  <p className="font-montserrat text-gray-700">{consequence}</p>
-                </motion.div>
-              ))}
-            </div>
+            <p className="font-montserrat text-lg text-gray-700 text-center leading-relaxed">
+              Tus sueños personales siguen &apos;en pausa&apos; indefinidamente, esa idea que tienes hace años sigue guardada, y otro año pasa sin cambios reales.
+            </p>
           </motion.div>
 
           {/* Urgency statement */}
@@ -119,7 +105,7 @@ export function PainPoints() {
             <p className="font-montserrat text-lg md:text-xl text-gray-700 leading-relaxed">
               Cada mes que &quot;esperas el momento perfecto&quot; te está costando tu potencial.
             </p>
-            <p className="font-yuji text-2xl md:text-3xl text-gray-800 mt-6">
+            <p className="font-fredoka text-2xl md:text-3xl text-gray-800 mt-6">
               Tus hijos van a crecer de todos modos.
               <br />
               <span className="text-teal">

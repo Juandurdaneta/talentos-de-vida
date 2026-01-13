@@ -62,7 +62,7 @@ export function LeadMagnet() {
                 <span className="font-montserrat text-sm font-semibold">RECURSO GRATUITO</span>
               </div>
 
-              <h2 className="font-yuji text-3xl md:text-4xl lg:text-5xl mb-4">
+              <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl mb-4">
                 Descubre El Propósito Que Ya Llevas Dentro
               </h2>
 
@@ -95,14 +95,14 @@ export function LeadMagnet() {
 
               {/* Emotional hook */}
               <div className="bg-white/10 rounded-2xl p-6 mb-8">
-                <p className="font-yuji text-lg text-white/90 italic">
+                <p className="font-fredoka text-lg text-white/90 italic">
                   &quot;Este es el espejo que te muestra lo que otros ya ven en ti pero tú no puedes ver.&quot;
                 </p>
               </div>
 
               {/* Closing lines */}
            
-              <p className="font-yuji text-xl text-peach">
+              <p className="font-fredoka text-xl text-peach">
                 Este es tu permiso para brillar.
               </p>
             </motion.div>
@@ -123,8 +123,8 @@ export function LeadMagnet() {
                           className="opacity-80"
                         />
                       </div>
-                      <h4 className="font-yuji text-2xl text-white mb-2">El Mapa del</h4>
-                      <h4 className="font-yuji text-3xl text-peach">Tesoro Escondido</h4>
+                      <h4 className="font-fredoka text-2xl text-white mb-2">El Mapa del</h4>
+                      <h4 className="font-fredoka text-3xl text-peach">Tesoro Escondido</h4>
                       <p className="font-montserrat text-white/60 text-sm mt-4">
                         Tu guía de 10 minutos
                       </p>

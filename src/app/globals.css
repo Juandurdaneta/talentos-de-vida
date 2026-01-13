@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Yuji+Syuku&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;500;600;700&family=Yuji+Syuku&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -14,7 +14,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    @apply font-yuji;
+    @apply font-fredoka;
   }
 }
 

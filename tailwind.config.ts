@@ -25,6 +25,7 @@ const config: Config = {
       fontFamily: {
         'yuji': ['"Yuji Syuku"', 'serif'],
         'montserrat': ['Montserrat', 'sans-serif'],
+        'fredoka': ['"Fredoka One"', 'cursive'],
       },
       animation: {
         'fade-in': 'fadeIn 0.8s ease-out forwards',
