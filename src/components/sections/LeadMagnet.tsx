@@ -100,11 +100,6 @@ export function LeadMagnet() {
                 </p>
               </div>
 
-              {/* Closing lines */}
-           
-              <p className="font-fredoka text-xl text-peach">
-                Este es tu permiso para brillar.
-              </p>
             </motion.div>
 
             {/* Right column - Form and mockup */}
@@ -156,6 +151,14 @@ export function LeadMagnet() {
               </div>
             </motion.div>
           </div>
+
+          {/* Closing line - centered across full width */}
+          <motion.p
+            variants={itemVariants}
+            className="font-fredoka text-2xl md:text-3xl lg:text-4xl text-peach text-center mt-12"
+          >
+            Este es tu permiso para brillar.
+          </motion.p>
         </motion.div>
       </div>
     </section>

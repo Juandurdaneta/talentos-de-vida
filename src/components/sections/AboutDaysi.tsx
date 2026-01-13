@@ -12,7 +12,7 @@ export function AboutDaysi() {
       transition={{ duration: 0.6, delay: 0.2 }}
       className="space-y-8"
     >
-      {/* Photo and intro */}
+      {/* Photo, intro and quote */}
       <div className="bg-gradient-to-br from-peach/20 to-coral/10 rounded-3xl p-8">
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
           <div className="relative w-32 h-32 rounded-full overflow-hidden flex-shrink-0 shadow-soft">
@@ -34,19 +34,18 @@ export function AboutDaysi() {
             </p>
           </div>
         </div>
-      </div>
-
-      {/* Quote */}
-      <div className="bg-teal/10 rounded-3xl p-8 border-l-4 border-teal">
-        <p className="font-fredoka text-xl text-gray-800 italic">
-          &quot;Cada mamá tiene un tesoro escondido. Mi misión es ayudarte a encontrarlo.&quot;
-        </p>
-        <p className="font-montserrat text-teal mt-2">- Daysi Aldaz</p>
+        {/* Quote */}
+        <div className="mt-6 pt-6 border-t border-teal/20">
+          <p className="font-fredoka text-xl text-gray-800 italic">
+            &quot;Cada mamá tiene un tesoro escondido. Mi misión es ayudarte a encontrarlo.&quot;
+          </p>
+          <p className="font-montserrat text-teal mt-2">- Daysi Aldaz</p>
+        </div>
       </div>
 
       {/* Social links */}
       <div className="bg-white rounded-3xl shadow-soft p-6">
-        <h4 className="font-montserrat font-bold text-gray-800 mb-4">
+        <h4 className="font-montserrat font-bold text-teal mb-4">
           También puedes encontrarme en:
         </h4>
         <div className="flex gap-4">

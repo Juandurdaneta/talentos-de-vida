@@ -119,10 +119,10 @@ export function Transformation() {
                 <motion.div
                   key={index}
                   variants={itemVariants}
-                  className="bg-gradient-to-r from-teal/10 to-teal-light/10 rounded-2xl p-6 flex items-center gap-4 border-l-4 border-teal"
+                  className="bg-gradient-to-r from-coral/15 to-peach/20 rounded-2xl p-6 flex items-center gap-4 border-l-4 border-coral"
                 >
                   <div className="w-12 h-12 rounded-full bg-white/80 flex items-center justify-center flex-shrink-0">
-                    <statement.icon className="w-6 h-6 text-teal" />
+                    <statement.icon className="w-6 h-6 text-coral" />
                   </div>
                   <p className="font-fredoka text-lg md:text-xl text-gray-800">
                     {statement.text}
