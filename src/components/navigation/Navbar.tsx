@@ -12,6 +12,7 @@ import { NavLink } from "./NavLink"
 
 const navLinks = [
   { href: "/", label: "Inicio", sectionId: "hero" },
+  { href: "/#story", label: "Sobre mí", sectionId: "story" },
   { href: "/contacto", label: "Contacto" },
 ]
 

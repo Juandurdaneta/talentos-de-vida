@@ -100,7 +100,7 @@ export function Transformation() {
           {/* Beyond income section */}
           <motion.div variants={itemVariants} className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-soft flex flex-col h-full">
-              <h3 className="font-fredoka text-2xl text-gray-800 mb-6">
+              <h3 className="font-fredoka text-2xl text-teal mb-6">
                 Más allá de cualquier ingreso...
               </h3>
               <div className="flex-1 flex flex-col justify-between">
@@ -124,7 +124,7 @@ export function Transformation() {
                   <div className="w-12 h-12 rounded-full bg-white/80 flex items-center justify-center flex-shrink-0">
                     <statement.icon className="w-6 h-6 text-coral" />
                   </div>
-                  <p className="font-fredoka text-lg md:text-xl text-gray-800">
+                  <p className="font-montserrat text-lg md:text-xl text-gray-800">
                     {statement.text}
                   </p>
                 </motion.div>

@@ -52,7 +52,7 @@ export function Story() {
   }
 
   return (
-    <section ref={ref} className="section-padding bg-off-white relative overflow-hidden">
+    <section id="story" ref={ref} className="section-padding bg-off-white relative overflow-hidden">
       {/* Decorative elements */}
       <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-teal/30 to-transparent" />
       <div className="absolute -top-40 -right-40 w-80 h-80 bg-teal-light/20 rounded-full blur-3xl" />
