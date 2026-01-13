@@ -12,25 +12,31 @@ export const metadata: Metadata = {
 export default function ContactoPage() {
   return (
     <main>
-      {/* Hero-style header */}
-      <section className="pt-32 pb-16 gradient-warm relative overflow-hidden">
-        {/* Decorative shapes */}
-        <div className="absolute -top-20 -right-20 w-64 h-64 bg-coral/20 organic-shape-1" />
-        <div className="absolute bottom-0 -left-20 w-48 h-48 bg-teal-light/30 organic-shape-2" />
+      {/* Header spacer */}
+      <div className="h-20 bg-off-white" />
 
-        <div className="max-w-4xl mx-auto px-4 md:px-8 text-center relative z-10">
-          <h1 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
-            Hablemos
-          </h1>
-          <p className="font-montserrat text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-            Me encantaría saber de ti. Si tienes preguntas sobre cómo descubrir
-            tu propósito, estoy aquí para ayudarte.
-          </p>
+      {/* Hero section - visually separated from header */}
+      <section className="pt-12 md:pt-16 pb-8 md:pb-12 bg-off-white relative overflow-hidden">
+        {/* Decorative shapes */}
+        <div className="absolute top-10 right-10 w-48 h-48 bg-coral/15 rounded-full blur-3xl" />
+        <div className="absolute bottom-10 left-10 w-64 h-64 bg-teal-light/20 rounded-full blur-3xl" />
+
+        <div className="max-w-4xl mx-auto px-4 md:px-8 relative z-10">
+          {/* Hero card */}
+          <div className="bg-gradient-to-br from-peach/30 via-white to-coral/10 rounded-3xl p-8 md:p-12 shadow-soft text-center">
+            <h1 className="font-fredoka text-4xl md:text-5xl lg:text-6xl text-gray-800 mb-6">
+              Hablemos
+            </h1>
+            <p className="font-montserrat text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+              Me encantaría saber de ti. Si tienes preguntas sobre cómo descubrir
+              tu propósito, estoy aquí para ayudarte.
+            </p>
+          </div>
         </div>
       </section>
 
       {/* Contact content */}
-      <section className="section-padding bg-off-white">
+      <section className="pt-8 pb-16 md:pb-24 bg-off-white">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-start">
             <ContactForm />
