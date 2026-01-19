@@ -17,7 +17,7 @@ export function AboutDaysi() {
         <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
           <div className="relative w-32 h-32 rounded-full overflow-hidden flex-shrink-0 shadow-soft">
             <Image
-              src="/images/daysi.jpg"
+              src="/images/daysi-2.jpeg"
               alt="Daysi Aldaz"
               fill
               className="object-cover"
