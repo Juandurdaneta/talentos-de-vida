@@ -58,14 +58,14 @@ export function FinalCTA() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-6">
+            <h2 className="font-reckless text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-6">
               Este Es Tu Momento
             </h2>
-            <p className="font-montserrat text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
+            <p className="font-circular text-lg md:text-xl text-gray-700 max-w-3xl mx-auto leading-relaxed">
               No llegaste aquí por casualidad. Ese sentimiento que tienes, esa inquietud, ese{" "}
               <span className="italic">&quot;tiene que haber algo más&quot;</span>...
             </p>
-            <p className="font-fredoka text-2xl text-teal mt-4">
+            <p className="font-reckless text-2xl text-teal mt-4">
               Es tu alma pidiendo espacio para brillar.
             </p>
           </motion.div>
@@ -92,7 +92,7 @@ export function FinalCTA() {
                     <Sparkles className="w-8 h-8 text-white" />
                   )}
                   <h3
-                    className={`font-montserrat font-bold text-xl uppercase tracking-wider text-white`}
+                    className={`font-circular font-bold text-xl uppercase tracking-wider text-white`}
                   >
                     {path.title}
                   </h3>
@@ -104,7 +104,7 @@ export function FinalCTA() {
                       className="flex items-center gap-3 text-white"
                     >
                       <ArrowRight className="w-5 h-5 flex-shrink-0" />
-                      <p className="font-montserrat text-lg">{item}</p>
+                      <p className="font-circular text-lg">{item}</p>
                     </div>
                   ))}
                 </div>
@@ -117,10 +117,10 @@ export function FinalCTA() {
             variants={itemVariants}
             className="text-center bg-white/80 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-soft mb-12"
           >
-            <p className="font-montserrat text-xl md:text-2xl text-gray-700 leading-relaxed">
+            <p className="font-circular text-xl md:text-2xl text-gray-700 leading-relaxed">
               No se trata de cambiar toda tu vida.
             </p>
-            <p className="font-fredoka text-2xl md:text-3xl text-teal mt-4">
+            <p className="font-reckless text-2xl md:text-3xl text-teal mt-4">
               Se trata de agregar propósito a la vida que ya tienes.
             </p>
           </motion.div>
@@ -130,7 +130,7 @@ export function FinalCTA() {
             <Button variant="primary" size="xl" className="shadow-soft-lg">
               MUÉSTRAME MI TESORO ESCONDIDO
             </Button>
-            <p className="font-montserrat text-sm text-gray-500 mt-4">
+            <p className="font-circular text-sm text-gray-500 mt-4">
               Tu transformación comienza con un clic
             </p>
           </motion.div>

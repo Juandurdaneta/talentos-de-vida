@@ -59,7 +59,7 @@ export function Testimonials() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800">
+            <h2 className="font-reckless text-3xl md:text-4xl lg:text-5xl text-gray-800">
               Mujeres Que Encontraron Su Propósito
             </h2>
           </motion.div>
@@ -91,13 +91,13 @@ export function Testimonials() {
                       </div>
                     </div>
                     <div>
-                      <h3 className="font-fredoka text-xl text-gray-800">{testimonial.name}</h3>
-                      <p className="font-montserrat text-coral text-sm">{testimonial.age}</p>
+                      <h3 className="font-reckless text-xl text-gray-800">{testimonial.name}</h3>
+                      <p className="font-circular text-coral text-sm">{testimonial.age}</p>
                     </div>
                   </div>
 
                   {/* Quote */}
-                  <p className="font-montserrat text-gray-700 leading-relaxed italic">
+                  <p className="font-circular text-gray-700 leading-relaxed italic">
                     &quot;{testimonial.quote}&quot;
                   </p>
 
@@ -124,7 +124,7 @@ export function Testimonials() {
                   </div>
                 ))}
               </div>
-              <p className="font-montserrat text-gray-700 ml-2">
+              <p className="font-circular text-gray-700 ml-2">
                 <span className="font-bold text-teal">+100 mamás</span> transformadas
               </p>
             </div>

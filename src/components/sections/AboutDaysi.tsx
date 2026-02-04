@@ -24,10 +24,10 @@ export function AboutDaysi() {
             />
           </div>
           <div>
-            <h3 className="font-fredoka text-2xl text-gray-800 mb-2 text-center sm:text-left">
+            <h3 className="font-reckless text-2xl text-gray-800 mb-2 text-center sm:text-left">
               Hola, soy Daysi
             </h3>
-            <p className="font-montserrat text-gray-700 leading-relaxed">
+            <p className="font-circular text-gray-700 leading-relaxed">
               Coach de propósito y emprendimiento para mamás que quieren crear algo propio
               sin sacrificar lo que más aman. He ayudado a más de 100 mujeres a descubrir
               sus talentos y convertirlos en negocios desde casa.
@@ -36,16 +36,16 @@ export function AboutDaysi() {
         </div>
         {/* Quote */}
         <div className="mt-6 pt-6 border-t border-teal/20">
-          <p className="font-fredoka text-xl text-gray-800 italic">
+          <p className="font-reckless text-xl text-gray-800 italic">
             &quot;Cada mamá tiene un tesoro escondido. Mi misión es ayudarte a encontrarlo.&quot;
           </p>
-          <p className="font-montserrat text-teal mt-2">- Daysi Aldaz</p>
+          <p className="font-circular text-teal mt-2">- Daysi Aldaz</p>
         </div>
       </div>
 
       {/* Social links */}
       <div className="bg-white rounded-3xl shadow-soft p-6">
-        <h4 className="font-montserrat font-bold text-teal mb-4">
+        <h4 className="font-circular font-bold text-teal mb-4">
           También puedes encontrarme en:
         </h4>
         <div className="flex gap-4">

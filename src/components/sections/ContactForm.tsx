@@ -45,10 +45,10 @@ export function ContactForm() {
       transition={{ duration: 0.6 }}
     >
       <div className="bg-white rounded-3xl shadow-soft p-8 md:p-10">
-        <h2 className="font-fredoka text-2xl md:text-3xl text-gray-800 mb-2">
+        <h2 className="font-reckless text-2xl md:text-3xl text-gray-800 mb-2">
           Envíame un mensaje
         </h2>
-        <p className="font-montserrat text-gray-600 mb-8">
+        <p className="font-circular text-gray-600 mb-8">
           Respondo personalmente cada mensaje.
         </p>
 
@@ -64,10 +64,10 @@ export function ContactForm() {
               <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-teal/10 flex items-center justify-center">
                 <CheckCircle className="w-8 h-8 text-teal" />
               </div>
-              <h3 className="font-fredoka text-xl text-gray-800 mb-2">
+              <h3 className="font-reckless text-xl text-gray-800 mb-2">
                 ¡Mensaje enviado!
               </h3>
-              <p className="font-montserrat text-gray-600 mb-6">
+              <p className="font-circular text-gray-600 mb-6">
                 Gracias por escribirme. Te responderé pronto.
               </p>
               <Button
@@ -91,7 +91,7 @@ export function ContactForm() {
               <div>
                 <label
                   htmlFor="name"
-                  className="block font-montserrat font-medium text-gray-700 mb-2"
+                  className="block font-circular font-medium text-gray-700 mb-2"
                 >
                   Tu nombre
                 </label>
@@ -103,7 +103,7 @@ export function ContactForm() {
                   aria-invalid={!!errors.name}
                 />
                 {errors.name && (
-                  <p className="mt-1 text-sm text-coral font-montserrat">
+                  <p className="mt-1 text-sm text-coral font-circular">
                     {errors.name.message}
                   </p>
                 )}
@@ -113,7 +113,7 @@ export function ContactForm() {
               <div>
                 <label
                   htmlFor="email"
-                  className="block font-montserrat font-medium text-gray-700 mb-2"
+                  className="block font-circular font-medium text-gray-700 mb-2"
                 >
                   Tu email
                 </label>
@@ -126,7 +126,7 @@ export function ContactForm() {
                   aria-invalid={!!errors.email}
                 />
                 {errors.email && (
-                  <p className="mt-1 text-sm text-coral font-montserrat">
+                  <p className="mt-1 text-sm text-coral font-circular">
                     {errors.email.message}
                   </p>
                 )}
@@ -136,7 +136,7 @@ export function ContactForm() {
               <div>
                 <label
                   htmlFor="message"
-                  className="block font-montserrat font-medium text-gray-700 mb-2"
+                  className="block font-circular font-medium text-gray-700 mb-2"
                 >
                   Tu mensaje
                 </label>
@@ -148,7 +148,7 @@ export function ContactForm() {
                   aria-invalid={!!errors.message}
                 />
                 {errors.message && (
-                  <p className="mt-1 text-sm text-coral font-montserrat">
+                  <p className="mt-1 text-sm text-coral font-circular">
                     {errors.message.message}
                   </p>
                 )}
@@ -158,7 +158,7 @@ export function ContactForm() {
               {status === "error" && (
                 <div className="flex items-center gap-2 p-4 rounded-2xl bg-coral/10 text-coral">
                   <AlertCircle className="w-5 h-5 flex-shrink-0" />
-                  <p className="font-montserrat text-sm">
+                  <p className="font-circular text-sm">
                     Hubo un error al enviar. Por favor, intenta de nuevo.
                   </p>
                 </div>

@@ -46,17 +46,17 @@ export function Footer() {
             </div>
 
             {/* Tagline */}
-            <p className="font-montserrat text-white/70 max-w-md mb-8">
+            <p className="font-circular text-white/70 max-w-md mb-8">
               Ayudando a mamás a descubrir su propósito y construir negocios desde casa sin sacrificar lo que más aman.
             </p>
 
             {/* Newsletter subscription */}
             <div className="w-full max-w-md mb-8">
-              <p className="font-fredoka text-lg text-white mb-3">
+              <p className="font-reckless text-lg text-white mb-3">
                 Suscríbete para recibir inspiración
               </p>
               {subscribed ? (
-                <p className="font-montserrat text-peach">
+                <p className="font-circular text-peach">
                   ¡Gracias por suscribirte! 💛
                 </p>
               ) : (
@@ -67,11 +67,11 @@ export function Footer() {
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Tu email"
                     required
-                    className="flex-1 px-4 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-white/50 font-montserrat text-sm focus:outline-none focus:border-peach transition-colors"
+                    className="flex-1 px-4 py-3 rounded-full bg-white/10 border border-white/20 text-white placeholder-white/50 font-circular text-sm focus:outline-none focus:border-peach transition-colors"
                   />
                   <button
                     type="submit"
-                    className="px-6 py-3 rounded-full bg-coral hover:bg-coral/90 text-white font-montserrat font-semibold text-sm transition-colors flex items-center gap-2"
+                    className="px-6 py-3 rounded-full bg-coral hover:bg-coral/90 text-white font-circular font-semibold text-sm transition-colors flex items-center gap-2"
                   >
                     <Send className="w-4 h-4" />
                     <span className="hidden sm:inline">Suscribir</span>
@@ -113,10 +113,10 @@ export function Footer() {
             <div className="w-24 h-0.5 bg-white/20 mb-6" />
 
             {/* Copyright */}
-            <p className="font-montserrat text-white/60 text-sm">
+            <p className="font-circular text-white/60 text-sm">
               © 2025 Talentos de Vida by Daysi Aldaz
             </p>
-            <p className="font-montserrat text-white/40 text-xs mt-2 flex items-center gap-1">
+            <p className="font-circular text-white/40 text-xs mt-2 flex items-center gap-1">
               Hecho con <Heart className="w-3 h-3 text-coral" /> para mamás con propósito
             </p>
           </motion.div>

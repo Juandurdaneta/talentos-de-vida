@@ -23,9 +23,9 @@ const config: Config = {
         'blush': '#F2E0E0',
       },
       fontFamily: {
-        'yuji': ['"Yuji Syuku"', 'serif'],
-        'montserrat': ['Montserrat', 'sans-serif'],
-        'fredoka': ['"Fredoka One"', 'cursive'],
+        'reckless': ['"Reckless Neue"', 'serif'],
+        'satoshi': ['Satoshi', 'sans-serif'],
+        'circular': ['"Circular Book"', 'sans-serif'],
       },
       animation: {
         'fade-in': 'fadeIn 0.8s ease-out forwards',

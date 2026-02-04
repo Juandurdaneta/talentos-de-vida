@@ -59,24 +59,24 @@ export function LeadMagnet() {
             <motion.div variants={itemVariants} className="text-white">
               <div className="inline-flex items-center gap-2 bg-white/20 rounded-full px-4 py-2 mb-6">
                 <Gift className="w-5 h-5" />
-                <span className="font-montserrat text-sm font-semibold">RECURSO GRATUITO</span>
+                <span className="font-circular text-sm font-semibold">RECURSO GRATUITO</span>
               </div>
 
-              <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl mb-4">
+              <h2 className="font-reckless text-3xl md:text-4xl lg:text-5xl mb-4">
                 Descubre El Propósito Que Ya Llevas Dentro
               </h2>
 
-              <h3 className="font-montserrat font-bold text-xl md:text-2xl text-white/90 mb-6">
+              <h3 className="font-circular font-bold text-xl md:text-2xl text-white/90 mb-6">
                 El Mapa Del Tesoro Escondido
               </h3>
 
-              <p className="font-montserrat text-white/80 mb-8 leading-relaxed">
+              <p className="font-circular text-white/80 mb-8 leading-relaxed">
                 La herramienta que ha ayudado a cientos de mamás a descubrir que tienen algo único y valioso que compartir.
               </p>
 
               {/* Benefits */}
               <div className="space-y-4 mb-8">
-                <p className="font-montserrat font-semibold text-white/90">
+                <p className="font-circular font-semibold text-white/90">
                   En solo 10 minutos descubrirás:
                 </p>
                 {benefits.map((benefit, index) => (
@@ -88,14 +88,14 @@ export function LeadMagnet() {
                     <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0 mt-0.5">
                       <benefit.icon className="w-4 h-4 text-white" />
                     </div>
-                    <p className="font-montserrat text-white/90">{benefit.text}</p>
+                    <p className="font-circular text-white/90">{benefit.text}</p>
                   </motion.div>
                 ))}
               </div>
 
               {/* Emotional hook */}
               <div className="bg-white/10 rounded-2xl p-6 mb-8">
-                <p className="font-fredoka text-lg text-white/90 italic">
+                <p className="font-reckless text-lg text-white/90 italic">
                   &quot;Este es el espejo que te muestra lo que otros ya ven en ti pero tú no puedes ver.&quot;
                 </p>
               </div>
@@ -118,9 +118,9 @@ export function LeadMagnet() {
                           className="opacity-80"
                         />
                       </div>
-                      <h4 className="font-fredoka text-2xl text-white mb-2">El Mapa del</h4>
-                      <h4 className="font-fredoka text-3xl text-peach">Tesoro Escondido</h4>
-                      <p className="font-montserrat text-white/60 text-sm mt-4">
+                      <h4 className="font-reckless text-2xl text-white mb-2">El Mapa del</h4>
+                      <h4 className="font-reckless text-3xl text-peach">Tesoro Escondido</h4>
+                      <p className="font-circular text-white/60 text-sm mt-4">
                         Tu guía de 10 minutos
                       </p>
                     </div>
@@ -144,7 +144,7 @@ export function LeadMagnet() {
                   <Button variant="primary" size="xl" className="w-full bg-golden hover:bg-golden/90 text-gray-800">
                     MUÉSTRAME MI TESORO ESCONDIDO
                   </Button>
-                  <p className="font-montserrat text-xs text-white/60 text-center">
+                  <p className="font-circular text-xs text-white/60 text-center">
                     🔒 Tu información está segura. No spam, solo valor.
                   </p>
                 </form>
@@ -155,7 +155,7 @@ export function LeadMagnet() {
           {/* Closing line - centered across full width */}
           <motion.p
             variants={itemVariants}
-            className="font-fredoka text-2xl md:text-3xl lg:text-4xl text-peach text-center mt-12"
+            className="font-reckless text-2xl md:text-3xl lg:text-4xl text-peach text-center mt-12"
           >
             Este es tu permiso para brillar.
           </motion.p>

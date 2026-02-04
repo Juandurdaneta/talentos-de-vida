@@ -84,7 +84,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className="font-fredoka text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 leading-tight mb-6 text-balance"
+          className="font-reckless font-semibold text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-gray-800 leading-tight mb-6 text-balance"
         >
           Para la mamá que siente que desapareció detrás de los roles de otros
         </motion.h2>
@@ -94,7 +94,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
-          className="font-montserrat font-bold text-xl md:text-2xl lg:text-3xl text-teal mb-4"
+          className="font-satoshi font-bold text-xl md:text-2xl lg:text-3xl text-teal mb-4"
         >
           Descubre Cómo Construir Tu Negocio Desde Casa En 90 Días
         </motion.h3>
@@ -104,7 +104,7 @@ export function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.6 }}
-          className="font-montserrat text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto"
+          className="font-circular text-lg md:text-xl text-gray-600 mb-10 max-w-3xl mx-auto"
         >
           Sin sacrificar tiempo familiar. Sin pedir permiso. Sin esperar el momento &quot;perfecto&quot; que nunca llega.
         </motion.p>
@@ -119,7 +119,7 @@ export function Hero() {
           <Button variant="primary" size="xl">
             MUÉSTRAME MI TESORO ESCONDIDO
           </Button>
-          <p className="font-montserrat text-sm text-gray-500">
+          <p className="font-circular text-sm text-gray-500">
             Descarga gratis el mapa • Toma solo 10 minutos
           </p>
         </motion.div>

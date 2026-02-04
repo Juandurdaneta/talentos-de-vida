@@ -3,7 +3,7 @@ import { forwardRef, type InputHTMLAttributes } from "react"
 import { cva, type VariantProps } from "class-variance-authority"
 
 const inputVariants = cva(
-  "flex h-14 w-full rounded-full px-6 py-3 font-montserrat transition-all duration-300 focus:outline-none focus:ring-2",
+  "flex h-14 w-full rounded-full px-6 py-3 font-circular transition-all duration-300 focus:outline-none focus:ring-2",
   {
     variants: {
       variant: {

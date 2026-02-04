@@ -54,7 +54,7 @@ export function PainPoints() {
             <h2 className="text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-6">
               ¿Te Suena Familiar?
             </h2>
-            <p className="font-montserrat text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
+            <p className="font-circular text-lg md:text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed">
               Es 1:30 PM. Los niños están en la escuela...
               <br />
               <span className="text-gray-700 font-medium">
@@ -66,7 +66,7 @@ export function PainPoints() {
           {/* Inner voice intro */}
           <motion.p
             variants={itemVariants}
-            className="font-montserrat text-center text-teal font-semibold text-lg mb-8"
+            className="font-circular text-center text-teal font-semibold text-lg mb-8"
           >
             Esa vocecita en tu cabeza no para:
           </motion.p>
@@ -79,7 +79,7 @@ export function PainPoints() {
             {painPoints.map((point, index) => (
               <motion.div key={index} variants={itemVariants}>
                 <Card className="bg-white/80 backdrop-blur-sm border-l-4 border-coral hover:border-teal">
-                  <p className="font-montserrat text-lg text-gray-700 italic">
+                  <p className="font-circular text-lg text-gray-700 italic">
                     &quot;{point}&quot;
                   </p>
                 </Card>
@@ -89,10 +89,10 @@ export function PainPoints() {
 
           {/* Consequences */}
           <motion.div variants={itemVariants} className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 mb-12">
-            <h3 className="font-fredoka text-2xl md:text-3xl text-teal text-center mb-4">
+            <h3 className="font-reckless text-2xl md:text-3xl text-teal text-center mb-4">
               Mientras tanto:
             </h3>
-            <p className="font-montserrat text-lg text-gray-700 text-center leading-relaxed">
+            <p className="font-circular text-lg text-gray-700 text-center leading-relaxed">
               Tus sueños personales siguen &apos;en pausa&apos; indefinidamente, esa idea que tienes hace años sigue guardada, y otro año pasa sin cambios reales.
             </p>
           </motion.div>
@@ -102,10 +102,10 @@ export function PainPoints() {
             variants={itemVariants}
             className="text-center bg-gradient-to-r from-coral/10 via-peach/10 to-coral/10 rounded-3xl p-8 md:p-12"
           >
-            <p className="font-montserrat text-lg md:text-xl text-gray-700 leading-relaxed">
+            <p className="font-circular text-lg md:text-xl text-gray-700 leading-relaxed">
               Cada mes que &quot;esperas el momento perfecto&quot; te está costando tu potencial.
             </p>
-            <p className="font-fredoka text-2xl md:text-3xl text-gray-800 mt-6">
+            <p className="font-reckless text-2xl md:text-3xl text-gray-800 mt-6">
               Tus hijos van a crecer de todos modos.
               <br />
               <span className="text-teal">

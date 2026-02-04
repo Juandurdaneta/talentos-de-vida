@@ -1,4 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;500;600;700&family=Yuji+Syuku&display=swap');
+/* Reckless Neue - Headlines */
+@font-face {
+  font-family: 'Reckless Neue';
+  src: url('/fonts/Reckless Neue/RecklessNeue-SemiBold.woff2') format('woff2'),
+       url('/fonts/Reckless Neue/RecklessNeue-SemiBold.woff') format('woff'),
+       url('/fonts/Reckless Neue/RecklessNeue-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Satoshi Variable - Accent text and buttons */
+@font-face {
+  font-family: 'Satoshi';
+  src: url('/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff2') format('woff2'),
+       url('/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.woff') format('woff'),
+       url('/fonts/Satoshi_Complete/Fonts/WEB/fonts/Satoshi-Variable.ttf') format('truetype');
+  font-weight: 300 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Circular Book - Navigation, body, small text */
+@font-face {
+  font-family: 'Circular Book';
+  src: url('/fonts/Circular Book/Circular Book/Web Fonts/02d8f1743ede250c7c9865f1574d7cc6.woff2') format('woff2'),
+       url('/fonts/Circular Book/Circular Book/Web Fonts/02d8f1743ede250c7c9865f1574d7cc6.woff') format('woff'),
+       url('/fonts/Circular Book/Circular Book/Web Fonts/02d8f1743ede250c7c9865f1574d7cc6.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @tailwind base;
 @tailwind components;
@@ -8,26 +39,26 @@
   html {
     scroll-behavior: smooth;
   }
-  
+
   body {
-    @apply font-montserrat text-gray-700 bg-off-white antialiased;
+    @apply font-circular text-gray-700 bg-off-white antialiased;
   }
-  
+
   h1, h2, h3, h4, h5, h6 {
-    @apply font-fredoka;
+    @apply font-reckless font-semibold;
   }
 }
 
 @layer components {
   .btn-primary {
-    @apply bg-coral text-white font-montserrat font-semibold py-4 px-8 rounded-full
+    @apply bg-coral text-white font-satoshi font-bold py-4 px-8 rounded-full
            shadow-soft transition-all duration-300 ease-out
            hover:shadow-soft-lg hover:scale-105 hover:bg-opacity-90
            active:scale-100;
   }
-  
+
   .btn-teal {
-    @apply bg-teal text-white font-montserrat font-semibold py-4 px-8 rounded-full
+    @apply bg-teal text-white font-satoshi font-bold py-4 px-8 rounded-full
            shadow-teal transition-all duration-300 ease-out
            hover:shadow-soft-lg hover:scale-105 hover:bg-opacity-90
            active:scale-100;

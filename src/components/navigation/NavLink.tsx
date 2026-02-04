@@ -33,7 +33,7 @@ export function NavLink({ href, label, sectionId, isActive, onClick, className }
       href={href}
       onClick={handleClick}
       className={cn(
-        "font-montserrat font-medium text-base transition-colors duration-200",
+        "font-circular text-base transition-colors duration-200",
         "hover:text-teal relative",
         isActive ? "text-teal" : "text-gray-700",
         className

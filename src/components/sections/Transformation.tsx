@@ -64,10 +64,10 @@ export function Transformation() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-12">
-            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
+            <h2 className="font-reckless text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
               Imagina Tu Vida Cuando Encuentres Tu Propósito
             </h2>
-            <p className="font-montserrat text-lg md:text-xl text-gray-700 mt-6">
+            <p className="font-circular text-lg md:text-xl text-gray-700 mt-6">
               Es el mismo martes, 1:30 PM... Pero{" "}
               <span className="font-bold text-teal">TÚ eres diferente:</span>
             </p>
@@ -87,10 +87,10 @@ export function Transformation() {
                 <div className="w-16 h-16 mx-auto mb-4 rounded-full bg-gradient-to-br from-teal-light to-teal flex items-center justify-center">
                   <point.icon className="w-8 h-8 text-white" />
                 </div>
-                <h3 className="font-montserrat font-bold text-teal text-sm uppercase tracking-wider mb-2">
+                <h3 className="font-circular font-bold text-teal text-sm uppercase tracking-wider mb-2">
                   {point.label}
                 </h3>
-                <p className="font-montserrat text-gray-700 text-sm">
+                <p className="font-circular text-gray-700 text-sm">
                   {point.text}
                 </p>
               </motion.div>
@@ -100,14 +100,14 @@ export function Transformation() {
           {/* Beyond income section */}
           <motion.div variants={itemVariants} className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-soft flex flex-col h-full">
-              <h3 className="font-fredoka text-2xl text-teal mb-6">
+              <h3 className="font-reckless text-2xl text-teal mb-6">
                 Más allá de cualquier ingreso...
               </h3>
               <div className="flex-1 flex flex-col justify-between">
                 {beyondIncome.map((item, index) => (
                   <div key={index} className="flex items-center gap-4">
                     <div className="w-3 h-3 rounded-full bg-coral flex-shrink-0" />
-                    <p className="font-montserrat text-gray-700">{item}</p>
+                    <p className="font-circular text-gray-700">{item}</p>
                   </div>
                 ))}
               </div>
@@ -124,7 +124,7 @@ export function Transformation() {
                   <div className="w-12 h-12 rounded-full bg-white/80 flex items-center justify-center flex-shrink-0">
                     <statement.icon className="w-6 h-6 text-coral" />
                   </div>
-                  <p className="font-montserrat text-lg md:text-xl text-gray-800">
+                  <p className="font-circular text-lg md:text-xl text-gray-800">
                     {statement.text}
                   </p>
                 </motion.div>
@@ -148,14 +148,14 @@ export function Transformation() {
                   </div>
                 ))}
                 <div className="w-12 h-12 rounded-full bg-teal border-2 border-white flex items-center justify-center">
-                  <span className="font-montserrat text-white text-sm font-bold">+100</span>
+                  <span className="font-circular text-white text-sm font-bold">+100</span>
                 </div>
               </div>
             </div>
-            <p className="font-montserrat text-lg md:text-xl text-gray-700 max-w-4xl mx-auto md:whitespace-nowrap">
+            <p className="font-circular text-lg md:text-xl text-gray-700 max-w-4xl mx-auto md:whitespace-nowrap">
               <span className="font-bold text-teal">Más de 100 mamás</span> ya encontraron su propósito. Empezaron exactamente donde tú estás.
             </p>
-            <p className="font-fredoka text-xl md:text-2xl text-gray-800 mt-4">
+            <p className="font-reckless text-xl md:text-2xl text-gray-800 mt-4">
               La única diferencia: <span className="text-golden">Ellas dejaron de esperar.</span>
             </p>
           </motion.div>

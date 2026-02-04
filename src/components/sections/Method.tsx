@@ -104,10 +104,10 @@ export function Method() {
         >
           {/* Section header */}
           <motion.div variants={itemVariants} className="text-center mb-16">
-            <h2 className="font-fredoka text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
+            <h2 className="font-reckless text-3xl md:text-4xl lg:text-5xl text-gray-800 mb-4">
               El Método R.E.N.A.C.E.R
             </h2>
-            <p className="font-montserrat text-lg md:text-xl text-teal font-semibold">
+            <p className="font-circular text-lg md:text-xl text-teal font-semibold">
               Tu Transformación de Vida en Pausa a Vida con Propósito
             </p>
           </motion.div>
@@ -128,18 +128,18 @@ export function Method() {
                   <div
                     className={`w-12 h-12 rounded-full ${step.color} flex items-center justify-center flex-shrink-0 shadow-soft z-10`}
                   >
-                    <span className="font-fredoka text-2xl text-white">{step.letter}</span>
+                    <span className="font-reckless text-2xl text-white">{step.letter}</span>
                   </div>
 
                   {/* Content card */}
                   <div className="flex-1 md:text-center bg-white rounded-2xl p-4 shadow-soft hover:shadow-soft-lg transition-shadow">
                     <div className="flex items-center gap-2 md:justify-center mb-2">
                       <step.icon className="w-5 h-5 text-gray-600" />
-                      <h3 className="font-montserrat font-bold text-sm uppercase tracking-wider text-gray-800">
+                      <h3 className="font-circular font-bold text-sm uppercase tracking-wider text-gray-800">
                         {step.title}
                       </h3>
                     </div>
-                    <p className="font-montserrat text-sm text-gray-600 leading-relaxed">
+                    <p className="font-circular text-sm text-gray-600 leading-relaxed">
                       {step.description}
                     </p>
                   </div>
@@ -163,7 +163,7 @@ export function Method() {
                   <div className="w-12 h-12 rounded-full bg-white shadow-soft flex items-center justify-center flex-shrink-0">
                     <point.icon className="w-6 h-6 text-teal" />
                   </div>
-                  <p className="font-montserrat text-gray-700">{point.text}</p>
+                  <p className="font-circular text-gray-700">{point.text}</p>
                 </motion.div>
               ))}
             </div>

@@ -106,7 +106,7 @@ const AccordionTrigger = forwardRef<HTMLButtonElement, HTMLAttributes<HTMLButton
       <button
         ref={ref}
         className={cn(
-          "flex w-full items-center justify-between p-6 font-montserrat font-semibold text-left text-gray-800 transition-colors hover:text-teal",
+          "flex w-full items-center justify-between p-6 font-circular font-semibold text-left text-gray-800 transition-colors hover:text-teal",
           className
         )}
         onClick={() => toggleItem(value)}
@@ -139,7 +139,7 @@ const AccordionContent = forwardRef<HTMLDivElement, HTMLAttributes<HTMLDivElemen
         )}
         {...props}
       >
-        <div className={cn("px-6 pb-6 text-gray-600 font-montserrat", className)}>
+        <div className={cn("px-6 pb-6 text-gray-600 font-circular", className)}>
           {children}
         </div>
       </div>

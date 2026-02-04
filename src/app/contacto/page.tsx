@@ -24,10 +24,10 @@ export default function ContactoPage() {
         <div className="max-w-4xl mx-auto px-4 md:px-8 relative z-10">
           {/* Hero card */}
           <div className="bg-gradient-to-br from-peach/30 via-white to-coral/10 rounded-3xl p-8 md:p-12 shadow-soft text-center">
-            <h1 className="font-fredoka text-4xl md:text-5xl lg:text-6xl text-gray-800 mb-6">
+            <h1 className="font-reckless text-4xl md:text-5xl lg:text-6xl text-gray-800 mb-6">
               Hablemos
             </h1>
-            <p className="font-montserrat text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
+            <p className="font-circular text-lg md:text-xl text-gray-600 max-w-2xl mx-auto leading-relaxed">
               Me encantaría saber de ti. Si tienes preguntas sobre cómo descubrir
               tu propósito, estoy aquí para ayudarte.
             </p>
