@@ -15,3 +15,15 @@ export const contactSchema = z.object({
 })
 
 export type ContactFormData = z.infer<typeof contactSchema>
+
+export const quizEmailFormSchema = z.object({
+  firstName: z
+    .string()
+    .min(2, { message: "El nombre debe tener al menos 2 caracteres" })
+    .max(100, { message: "El nombre es demasiado largo" }),
+  email: z
+    .string()
+    .email({ message: "Por favor, ingresa un email válido" }),
+})
+
+export type QuizEmailFormData = z.infer<typeof quizEmailFormSchema>
